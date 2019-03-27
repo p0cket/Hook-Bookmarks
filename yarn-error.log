@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js global add parcel-bundler
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/yehudasilbermintz/.config/yarn'
+
+npm manifest: 
+  {
+    "name": "hook-bookmarks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^16.8.1",
+      "react-dom": "^16.8.1"
+    },
+    "devDependencies": {
+      "parcel-bundler": "^1.12.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
